@@ -37,11 +37,9 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
 a = input("Hello, what is yout name? ")
-
 b = str("Hi " + a + " What is the name of the month you were born in? ")
-
 c = input(b)
+d = int(input("And wht year were you born in, " + a + "? "))
+e = int(input("And the day? "))
 
-d = int(input("And wht year were you born in, " + a + "?"))
-
-e = int(input("And the day?"))
+if d >= 2000
