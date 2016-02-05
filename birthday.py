@@ -1,6 +1,6 @@
 """
 birthday.py
-Author: <your name here>
+Author: Billy B
 Credit: <list sources used, if any>
 Assignment:
 
@@ -31,3 +31,4 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+input("Hello, what is yout name?")
