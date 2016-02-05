@@ -39,7 +39,7 @@ todaydate = datetime.today().day
 a = input("Hello, what is yout name? ")
 b = str("Hi " + a + " What is the name of the month you were born in? ")
 c = input(b)
-d = int(input("And wht year were you born in, " + a + "? "))
+d = int(input("And what year were you born in, " + a + "? "))
 e = int(input("And the day? "))
 
 if b=="October" and e==31:
