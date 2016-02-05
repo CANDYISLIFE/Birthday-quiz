@@ -50,4 +50,5 @@ elif b=="December" or "January" or "February" and d>=2000:
     print(str(a + ", you are a winter baby of the two thousands."))
 elif b=="March" or "April" or "May" and d>=2000: 
     print(str(a + ", you are a spring baby of the two thousands."))
+elif b==
     
