@@ -36,10 +36,10 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-a = input("Hello, what is yout name?")
+a = input("Hello, what is yout name? ")
 
-b = str("Hi" + a + "What is the name of the month you were born in?")
+b = str("Hi " + a + " What is the name of the month you were born in? ")
 
 c = input(b)
 
-d = input("And wht year were you born in," + a + "?")
+d = input("And wht year were you born in, " + a + "?")
