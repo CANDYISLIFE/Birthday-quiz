@@ -31,4 +31,5 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
-input("Hello, what is yout name?")
+a = input("Hello, what is yout name?")
+b = input(str(Hi + a + "What is the name of the month you were born in?")
