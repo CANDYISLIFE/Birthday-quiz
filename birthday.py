@@ -42,3 +42,4 @@ b = str("Hi" + a + "What is the name of the month you were born in?")
 
 c = input(b)
 
+d = input("And wht year were you born in," + a + "?")
