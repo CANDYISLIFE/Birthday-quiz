@@ -42,4 +42,7 @@ c = input(b)
 d = int(input("And wht year were you born in, " + a + "? "))
 e = int(input("And the day? "))
 
-if d >= 2000
+if b=="October" and e==31:
+    print("You were born on Halloween!")
+elif b==todaymonth and e==todaydate:
+    print("Happy Birthday!")
