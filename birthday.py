@@ -32,4 +32,4 @@ Example Session
   Eric, you are a fall baby of the stone age.
 """
 a = input("Hello, what is yout name?")
-b = input(str(Hi + a + "What is the name of the month you were born in?")
+b = input(str(Hi + a + "What is the name of the month you were born in?"))
