@@ -76,5 +76,5 @@ elif b in ["March", "April", "May"] and d>=1980:
     print(str(a + ", you are a spring baby of the Stone Age."))
 elif b in ["June", "July", "August"] and d>=1980:
     print(str(a +", you are a summer baby of the Stone Age."))
-else b in ["September", "October", "November"] and d<=1980:
+elif b in ["September", "October", "November"] and d<=1980:
     print(str(a + ", you are a fall baby of the Stone Age."))
