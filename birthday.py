@@ -36,7 +36,7 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-a = input("Hello, what is yout name? ")
+a = input("Hello, what is your name? ")
 b = str("Hi " + a + " What is the name of the month you were born in? ")
 c = input(b)
 d = int(input("And what year were you born in, " + a + "? "))
@@ -54,4 +54,27 @@ elif b=="June" or "July" or "August" and d>=2000:
     print(str(a +", you are a summer baby of the two thousands."))
 elif b=="September" or "October" or "November" and d>=2000:
     print(str(a + ", you are a fall baby of the two thousands."))
-    
+elif b=="December" or "January" or "February" and d>=1990 and d<= 2000:
+     print(str(a + ", you are a winter baby of the nineties."))
+elif b=="March" or "April" or "May" and d>=1990 and d<= 2000:
+     print(str(a + ", you are a spring baby of the nineties."))
+elif b=="June" or "July" or "August" and d>=1990 and d<=2000:
+    print(str(a + ", you are a summer baby of the nineties."))
+elif b=="September" or "October" or "November" and d>=1990 and d<=2000:
+    print(str(a + ", you are a fall baby of the nineties."))
+elif b=="December" or "January" or "February" and d>=1980 and d<= 1990:
+     print(str(a + ", you are a winter baby of the eighties."))
+elif b=="March" or "April" or "May" and d>=1980 and d<= 1990:
+     print(str(a + ", you are a spring baby of the eighties."))
+elif b=="June" or "July" or "August" and d>=1980 and d<=1990:
+    print(str(a + ", you are a summer baby of the eighties."))    
+elif b=="September" or "October" or "November" and d>=1980 and d<=1990:
+    print(str(a + ", you are a fall baby of the eighties."))
+elif b=="December" or "January" or "February" and d>=1980:
+    print(str(a + ", you are a winter baby of the Stone Age."))
+elif b=="March" or "April" or "May" and d>=1980: 
+    print(str(a + ", you are a spring baby of the Stone Age."))
+elif b=="June" or "July" or "August" and d>=1980:
+    print(str(a +", you are a summer baby of the Stone Age."))
+elif b=="September" or "October" or "November" and d<=1980:
+    print(str(a + ", you are a fall baby of the Stone Age."))
