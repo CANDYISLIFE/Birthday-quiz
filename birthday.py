@@ -55,17 +55,17 @@ elif b in ["June", "July", "August"] and d>=2000:
 elif b in ["September", "October", "November"]  and d>=2000:
     print(str(a + ", you are a fall baby of the two thousands."))
 elif b in ["December", "January", "February"] and d>=1990 and d<= 2000:
-     print(str(a + ", you are a winter baby of the nineties."))
+    print(str(a + ", you are a winter baby of the nineties."))
 elif b in ["March", "April", "May"] and d>=1990 and d<= 2000:
-     print(str(a + ", you are a spring baby of the nineties."))
+    print(str(a + ", you are a spring baby of the nineties."))
 elif b in ["June", "July", "August"] and d>=1990 and d<=2000:
     print(str(a + ", you are a summer baby of the nineties."))
 elif b in ["September", "October", "November"]  and d>=1990 and d<=2000:
     print(str(a + ", you are a fall baby of the nineties."))
 elif b in ["December", "January", "February"] and d>=1980 and d<= 1990:
-     print(str(a + ", you are a winter baby of the eighties."))
+    print(str(a + ", you are a winter baby of the eighties."))
 elif b in ["March", "April", "May"] and d>=1980 and d<= 1990:
-     print(str(a + ", you are a spring baby of the eighties."))
+    print(str(a + ", you are a spring baby of the eighties."))
 elif b in ["June", "July", "August"] and d>=1980 and d<=1990:
     print(str(a + ", you are a summer baby of the eighties."))    
 elif b in ["September", "October", "November"]  and d>=1980 and d<=1990:
