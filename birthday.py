@@ -37,7 +37,7 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
 a = input("Hello, what is your name? ")
-b = str("Hi " + a + " What is the name of the month you were born in? ")
+b = str("Hi " + a + " What is the name of the month you were born in? ") 
 c = input(b)
 d = int(input("And what year were you born in, " + a + "? "))
 e = int(input("And the day? "))
@@ -46,7 +46,7 @@ if b=="October" and e==31:
     print("You were born on Halloween!")
 elif b==todaymonth and e==todaydate:
     print("Happy Birthday!")
-elif b=="December" or "January" or "February" and d>=2000:
+elif b in ["December", "January", "February"] and d>=2000:
     print(str(a + ", you are a winter baby of the two thousands."))
 elif b=="March" or "April" or "May" and d>=2000: 
     print(str(a + ", you are a spring baby of the two thousands."))
@@ -76,5 +76,5 @@ elif b=="March" or "April" or "May" and d>=1980:
     print(str(a + ", you are a spring baby of the Stone Age."))
 elif b=="June" or "July" or "August" and d>=1980:
     print(str(a +", you are a summer baby of the Stone Age."))
-elif b=="September" or "October" or "November" and d<=1980:
+else b=="September" or "October" or "November" and d<=1980:
     print(str(a + ", you are a fall baby of the Stone Age."))
