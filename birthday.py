@@ -70,11 +70,11 @@ elif b in ["June", "July", "August"] and d>=1980 and d<=1990:
     print(str(a + ", you are a summer baby of the eighties."))    
 elif b in ["September", "October", "November"]  and d>=1980 and d<=1990:
     print(str(a + ", you are a fall baby of the eighties."))
-elif b in ["December", "January", "February"]  and d>=1980:
+elif b in ["December", "January", "February"]  and d<=1980:
     print(str(a + ", you are a winter baby of the Stone Age."))
-elif b in ["March", "April", "May"] and d>=1980: 
+elif b in ["March", "April", "May"] and d<=1980: 
     print(str(a + ", you are a spring baby of the Stone Age."))
-elif b in ["June", "July", "August"] and d>=1980:
+elif b in ["June", "July", "August"] and d<=1980:
     print(str(a +", you are a summer baby of the Stone Age."))
 elif b in ["September", "October", "November"] and d<=1980:
     print(str(a + ", you are a fall baby of the Stone Age."))
