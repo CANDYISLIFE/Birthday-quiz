@@ -37,10 +37,12 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
 a = input("Hello, what is your name? ")
-b = str("Hi " + a + " What is the name of the month you were born in? ") 
-c = input(b)
+c = str("Hi " + a + " What is the name of the month you were born in? ") 
+b = input(b)
 d = int(input("And what year were you born in, " + a + "? "))
 e = int(input("And the day? "))
+
+
 
 if b=="October" and e==31:
     print("You were born on Halloween!")
