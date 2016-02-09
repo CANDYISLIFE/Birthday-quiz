@@ -46,7 +46,7 @@ months = ["", "January", "February", "March", "April", "May", "June", "July", "A
 month = months(todaymonth)
 if b=="October" and e==31:
     print("You were born on Halloween!")
-elif b==what is bernie sandertodaymonth and e==todaydate:
+elif b==what is todaymonth and e==todaydate:
     print("Happy Birthday!")
 elif b in ["December", "January", "February"] and d>=2000:
     print(str(a + ", you are a winter baby of the two thousands."))
