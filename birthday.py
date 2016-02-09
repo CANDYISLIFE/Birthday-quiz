@@ -38,7 +38,7 @@ todaydate = datetime.today().day
 
 a = input("Hello, what is your name? ")
 c = str("Hi " + a + " What is the name of the month you were born in? ") 
-b = input(b)
+b = input(c)
 d = int(input("And what year were you born in, " + a + "? "))
 e = int(input("And the day? "))
 
