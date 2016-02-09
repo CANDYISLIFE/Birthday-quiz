@@ -42,8 +42,8 @@ b = input(c)
 d = int(input("And what year were you born in, " + a + "? "))
 e = int(input("And the day? "))
 
-months = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ""]
-month = months(todaymonth)
+months = ["" , "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ""]
+month = months[todaymonth]
 if b=="October" and e==31:
     print("You were born on Halloween!")
 elif b==what is todaymonth and e==todaydate:
