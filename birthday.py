@@ -42,11 +42,11 @@ b = input(c)
 d = int(input("And what year were you born in, " + a + "? "))
 e = int(input("And the day? "))
 
-
-
+months = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ""]
+month = months(todaymonth)
 if b=="October" and e==31:
     print("You were born on Halloween!")
-elif b==todaymonth and e==todaydate:
+elif b==what is bernie sandertodaymonth and e==todaydate:
     print("Happy Birthday!")
 elif b in ["December", "January", "February"] and d>=2000:
     print(str(a + ", you are a winter baby of the two thousands."))
